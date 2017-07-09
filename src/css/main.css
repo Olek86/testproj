@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: #fff;
+    width: 980px;
+    margin: auto;
+}
+
+header {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+header #logo {
+    background-image: url("../img/logo.png");
+    display: inline-block;
+    width: 160px;
+    height: 50px;
+}
+
+header #text {
+    display: inline-block;
+    float: right;
+    margin-top: 30px;
+    size: 14px;
+    text-align: right;
+}
+
+header #text a {
+    color: #08ab27;
+    text-decoration: none;
+}
+
+#app {
+    -webkit-box-shadow: 0 0 3px 2px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 0 3px 2px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 3px 2px rgba(0, 0, 0, 0.1);
+}
+
