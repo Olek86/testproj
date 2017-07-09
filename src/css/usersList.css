@@ -1,0 +1,19 @@
+ul {
+    list-style-type: none;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+    -webkit-padding-start: 0;
+}
+
+.listHeader {
+    display: block;
+    width: 100%;
+    height: 30px;
+    background: #e8eceb;
+    padding: 10px 30px;
+    color: #6f7f85;
+    font-size: 10px;
+    font-weight: bold;
+}

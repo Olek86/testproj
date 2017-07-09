@@ -1,0 +1,63 @@
+form {
+    background: #fff;
+    -moz-border-radius: 4px 4px 0 0;
+    -webkit-border-radius: 4px 4px 0 0;
+    border-radius: 4px 4px 0 0;
+    padding: 20px 30px;
+}
+
+form button,
+form input[type="submit"] {
+    background: #fff;
+    border: 1px solid #08ab6b;
+    color: #08ab27;
+    cursor: pointer;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    height: 40px;
+    /*width: 150px;*/
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: bold;
+    padding: 9px 29px;
+    margin-right: 29px;
+    outline: none;
+}
+
+form button:hover,
+form input[type="submit"]:hover {
+    background-color: #08ab6b;
+    color: #fff;
+}
+
+form button .icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    display: inline;
+    float: left;
+    background-image: url("../img/button_add.png");
+}
+
+form button .text {
+    text-align: left;
+}
+
+input[type="text"] {
+    border: 1px solid #cfd4d6;
+    color: #303639;
+    font-size: 12px;
+    padding: 6px;
+    width: 250px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.formsReset {
+    margin-left: 20px;
+    color: #e43030;
+    display: inline;
+    text-decoration: underline;
+    cursor: pointer;
+}

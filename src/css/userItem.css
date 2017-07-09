@@ -1,0 +1,55 @@
+li {
+    color: #6f7f85;
+    display: block;
+    padding: 20px 30px;
+    background: #ffffff;
+    font-size: 14px;
+    min-height: 50px;
+}
+
+li:nth-child(2n) {
+    background-color: #f8f9f9;
+}
+
+li:last-child {
+    -moz-border-radius: 0 0 4px 4px;
+    -webkit-border-radius: 4px 4px;
+    border-radius: 0 0 4px 4px;
+}
+
+.col-id,
+.col-name,
+.col-email {
+    float: left;
+}
+
+.col-id {
+    width: 150px;
+    font-family: Roboto Bold;
+}
+
+.col-id > div {
+    width: 20px;
+    height: 20px;
+    background-color: #e8eceb;
+    text-align: center;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -webkit-border-radius: 100%;
+}
+
+.col-name {
+    width: 270px;
+}
+
+.col-email {
+    width: 437px;
+}
+
+.col-delete {
+    cursor: pointer;
+    background-image: url("../img/delete_user.png");
+    width: 13px;
+    height: 12px;
+    float: left;
+}
